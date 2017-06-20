@@ -1,0 +1,16 @@
+<table class="quote-product-items">
+    <tr>
+        <th data-bind="i18n: 'Product'"></th>
+        <th data-bind="i18n: 'Sku'"></th>
+        <th data-bind="i18n: 'Qty'"></th>
+        <th data-bind="i18n: 'Price'"></th>
+    </tr>
+    <!-- ko foreach: products -->
+    <tr>
+        <td data-bind="text: name"></td>
+        <td data-bind="text: sku"></td>
+        <td data-bind="text: qty"></td>
+        <td data-bind="text: price"></td>
+    </tr>
+    <!-- /ko -->
+</table>
